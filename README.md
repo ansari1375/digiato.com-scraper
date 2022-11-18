@@ -18,5 +18,5 @@ results = scrape()
 Make sure that you have the required libraries installed in your environment:
 
 ```bash
-pip install -r requirements.txt
-'''
+pip3 install -r requirements.txt
+```
