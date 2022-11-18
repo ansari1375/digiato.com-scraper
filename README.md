@@ -1,6 +1,6 @@
 # digiato.com-scraper
 
-This python script scrapes today's news from https://digiato.com (a tech news website).
+This python script scrapes today's news from https://digiato.com (a Persian tech news website).
 
 First of all, make sure that you have the required libraries installed in your environment:
 
