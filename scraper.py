@@ -33,6 +33,8 @@ def scrape():
 
 if __name__=='__main__':
     results = scrape()
-    json.dump(results, open('results.json','w'))
+    today = datetime.datetime.now()
+    year, month, day, hour, minute = today.year, today.month, today.day, today.hour, today.minute
+    json.dump(results, open(f'results_{year}_{month}_{day}_{hour}_{minute}.json','w'))
 
 
