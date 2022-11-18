@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 def get_soup(url):
     resp = requests.get(url)
-    soup = BeautifulSoup(resp.content)
+    soup = BeautifulSoup(resp.content, features="lxml")
     return soup
 
 def get_by_class(soup, name, class_name):
