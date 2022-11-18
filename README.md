@@ -2,6 +2,12 @@
 
 This python script scrapes today's news from https://digiato.com (a Persian tech news website).
 
+You can clone this repository into your system by:
+
+```bash
+git clone https://github.com/ansari1375/digiato.com-scraper.git
+```
+
 First of all, make sure that you have the required libraries installed in your environment:
 
 ```bash
