@@ -21,7 +21,7 @@ Now you can either use it as a standalone script:
 python3 scraper.py
 ```
 
-which save the results as a json file (results_YYYY_MM_DD_HH_MM.json).
+which saves the results as a json file (results_YYYY_MM_DD_HH_MM.json).
 
 Or, you can import it in your own code and use it as a function which returns a python dictionary.
 
